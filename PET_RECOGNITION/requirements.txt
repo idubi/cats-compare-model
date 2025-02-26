@@ -1,0 +1,19 @@
+torch  --index-url https://download.pytorch.org/whl/cu118
+
+torchaudio  --index-url https://download.pytorch.org/whl/cu118
+ultralytics
+faiss-cpu 
+onnxruntime
+faiss-gpu
+opencv-python
+pillow
+fastapi
+uvicorn
+cv 
+matplotlib
+torchvision==0.21
+datasets
+albumentations 
+kaggle     
+wget 
+tqdm

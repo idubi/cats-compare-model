@@ -1,0 +1,12 @@
+train: ./CAT/train/images
+val: ./CAT/valid/images
+test: ./CAT/test/images
+
+nc: 2
+names: ['0', '1']
+
+roboflow:
+  workspace: idubi
+  project: PETS
+  version: 1
+  license: CC BY 4.0
