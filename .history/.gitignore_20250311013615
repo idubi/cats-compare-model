@@ -3,4 +3,5 @@
 /DATASETS/*
 shlif.sh
 _*_
-/kaggle_temp/*
+/*_temp/
+*.pt
