@@ -1,0 +1,18 @@
+{
+    "paths": {
+        "base_dir": "./BLUEPRINT_DS",
+        "augmented_CATS": "./BLUEPRINT_DS/CAT/AUGMENTED",
+        "augmented_DOGS": "./BLUEPRINT_DS/DOG/AUGMENTED"
+    },
+    "augmentations": {
+        "rotate": {"enabled": true, "probability": 15},
+        "flip": {"enabled": true, "probability": 10},
+        "grayscale": {"enabled": true, "probability": 5},
+        "background_change": {"enabled": true, "probability": 20}
+    },
+    "logging": {
+        "console": true,
+        "file": true,
+        "log_file": "augmentations.json"
+    }
+} 

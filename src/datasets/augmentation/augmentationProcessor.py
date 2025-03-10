@@ -8,7 +8,8 @@ from tqdm import tqdm
 from PIL import Image
 
 # === CONFIGURATION ===
-BASE_DIR = "./PET_RECOGNITION/DATASETS/BLUEPRINT_DS"
+BASE_DIR = "./DATASETS/BLUEPRINT_DS"
+
 CATEGORIES = ["CAT", "DOG"]
 IMAGE_SIZE = (224, 224)
 YOLO_CONFIDENCE_THRESHOLD = 0.5  # Ignore images below this confidence

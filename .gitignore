@@ -1,2 +1,5 @@
 *.pt
 *.jpg
+/DATASETS/*
+shlif.sh
+_*_
