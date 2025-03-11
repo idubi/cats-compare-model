@@ -1,6 +1,0 @@
-*.pt
-*.jpg
-/DATASETS/*
-shlif.sh
-_*_
-/kaggle_temp/

@@ -4,5 +4,7 @@
 shlif.sh
 _*_
 /kaggle_temp/*
-/.history/*
+/.history/
 /LOGS/*
+faiss.index
+.vscode

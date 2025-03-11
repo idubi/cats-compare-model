@@ -1,7 +1,0 @@
-*.pt
-*.jpg
-/DATASETS/*
-shlif.sh
-_*_
-/*_temp/
-*.pt
