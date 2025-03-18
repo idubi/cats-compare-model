@@ -1,0 +1,18 @@
+{
+    "sourceFile": "shlif.sh",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1742085031363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1742085031363,
+            "name": "Commit-0",
+            "content": "pyenv list\npyenv install --list\npyenv install --list | grep 3.10\npyenv install 3.10.15\npyenv update\npyenv virtualenvs\npyenv global \npyenv local 3.10\npyenv local\npyenv virtualenv 3.10.15 venv31015\npyenv virtualenvs\npyenv activate venv31015 \npip install -r requirements.txt \n\n# initiate fais db and resnet50 with \npython ./src/main.py \n\n#create  kagle json\n .cursor-server/ \n  mkdir -p ./.config/kaggle\n  cd  ./.config/kaggle/\n  mano kaggle.json > add kaggle json\n\n\n\n\n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\n\n\nlook at this links kaggle : \n---------------------\nHelloStreetCat Individuals dataset\nhttps://www.kaggle.com/datasets/tobiastrein/heellostreetcat-individuals?select=005-mr-airplane \nhttps://www.kaggle.com/datasets/tobiastrein/heellostreetcat-individuals?select=025-mr-fat\n\n\ncat individual_snn - colab python example\nhttps://www.kaggle.com/code/jovi1018/cat-individual-snn/notebook#Loading-images \n\narxiv.org\n----------\nSiamese Networks for Cat Re-Identification: Exploring Neural Models for Cat Instance Recognition\nhttps://arxiv.org/html/2501.02112v1"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "paths": {
+        "base_dir": "DATASETS/BLUEPRINT_DS",
+        "augmented_dir": "AUGMENTED", 
+        "images_subfolders_to_use":["ORIGINAL","LOW_PREDICTION"]
+    },
+    "augmentations": {
+        "rotate": {"enabled": true, "probability": 4},
+        "flip": {"enabled": true, "probability": 3},
+        "grayscale": {"enabled": true, "probability": 5},
+        "background_change": {"enabled": true, "probability": 12},
+        "noise": {"enabled": true, "probability": 2 },
+        "crop": {"enabled": false, "probability": 0},  
+        "negative": {"enabled": false, "probability": 0},
+        "none" :{"enabled": true, "probability": 74}
+    },
+    "logging": {
+        "console": true,
+        "file": true,
+        "log_file": "augmentations.json"
+    }
+}

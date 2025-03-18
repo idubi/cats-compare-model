@@ -8,3 +8,4 @@ shlif.sh
 /LOGS/*
 faiss.index
 _*_
+.qodo
